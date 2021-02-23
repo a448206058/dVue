@@ -1,0 +1,26 @@
+{
+  "name": "dvue",
+  "version": "1.0.0",
+  "description": "实践出真知",
+  "main": "src/index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --config webpack.config.js",
+    "dev": "webpack-dev-server",
+    "starts": "babel-node ./src/index.js"
+  },
+  "keywords": [
+    "dvue"
+  ],
+  "author": "xixihaha",
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.9.0"
+  }
+}
